@@ -13,6 +13,7 @@ spec:
       protocol: TCP
     - name: java
       port: 8080
+      targetPort:8080
       protocol: TCP
   selector:
     app:  my-app
